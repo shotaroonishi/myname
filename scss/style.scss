@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// 設定用
+@import "scss/setting";
+
+.bk-white {
+  background: #fff;
+}
+.bk-black {
+  background: #000;
+}
+.bk-blue {
+  background: #006ef5;
+}
+#header-nav {
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.5);
+  ul {
+    display: flex;
+  }
+}
+.works-section {
+  width: 100vw;
+  height: 100vh;
+  // background: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+#main-vis {
+  position: relative;
+  .header-nav {
+    opacity: 0;
+    position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .main-vis-ttl {
+    opacity: 0;
+    width: 30%;
+    height: 20%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
